@@ -1,0 +1,38 @@
+/* CSS files add styling rules to your content */
+
+
+.container {
+/*   background-color: rgb(168,210,240); */
+
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+/*   background-color: rgb(168,210,240); */
+  padding-left: 500px;
+background-image: url("https://cdn.glitch.com/a9fb2650-1e38-4b9b-8d26-64a1a2beebba%2FCanva%20-%20Picture%20of%20Forest%20with%20Small%20House%20-1.jpg?v=1595634523055")
+}
+
+
+h1 {
+  font-style: italic;
+  color: rgb(44, 64, 137);
+  
+}
+
+.game-title {
+  
+  color: rgb(44, 64, 137);
+  font-size: 95px;
+  font-family: 'MyWebFont', Arial, Tahoma;
+  
+  
+}
+
+@font-face {
+  font-family: 'MyWebFont'; /* This is an arbitrary name -- whatever works for you */
+  src: url(https://cdn.glitch.com/a9fb2650-1e38-4b9b-8d26-64a1a2beebba%2FBerkshireSwash-Regular.ttf?v=1595782529009);
+       url(https://cdn.glitch.com/a9fb2650-1e38-4b9b-8d26-64a1a2beebba%2FBerkshireSwash-Regular.ttf?v=1595782529009) format('ttf');
+  
+}
